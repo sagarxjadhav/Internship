@@ -1,0 +1,101 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.servicename{
+    margin-left: 4vw;
+    margin-bottom: 1.5vw;
+  }
+
+.customservice {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 auto;
+    max-width: 90vw;
+    padding: 20px;
+    background-color: rgb(252, 207, 207);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+
+input{
+    border-radius: 5px;
+    height: 1.9vw;
+}
+
+
+
+  .LeftSide{
+    /* background-color: aqua; */
+    width: 70%;
+  }
+
+  .RightSide{
+    /* background-color: blanchedalmond; */
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+
+
+
+  .left{
+    display: flex;
+    flex-direction: row;
+    gap:10vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .left_Bottom{
+    display: flex;
+    flex-direction: row;
+    gap:10vw;
+    margin-bottom: 1.5vw;
+  }
+
+
+
+  .ctabutton {
+    margin-top: 3vw;
+    flex-basis: calc(33.333% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #f04;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .imgbottom{
+    height: 30vw;
+    width: 40vw;
+  }
+
+
+  
+  @media (max-width: 600px) {
+    .customservice{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_Bottom,.left{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+  }

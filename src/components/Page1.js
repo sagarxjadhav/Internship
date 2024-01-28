@@ -1,8 +1,20 @@
 import React from 'react';
 // import styles from './Page1.module.css';
 import styles from '../styles/Page1.module.css'
+import Shery from "sheryjs";
 
 const Page1 =()=>{
+
+
+  Shery.mouseFollower({
+    //Parameters are optional.
+    skew: true,
+    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+    duration: 1,
+  }); //magicimg
+
+ 
+
   return (
     <>
       <div className={styles.main}>
@@ -32,7 +44,7 @@ const Page1 =()=>{
           </form>
           </div>
           <div className={styles.right}>
-            <img src="https://img.freepik.com/free-photo/fun-3d-cartoon-teenage-boy_183364-81179.jpg?w=740&t=st=1706063073~exp=1706063673~hmac=bcead8cf3400873342fe24556f6a7db327001a3f050d45d07855065198305ae3"/>
+            <img  src="https://img.freepik.com/free-photo/fun-3d-cartoon-teenage-boy_183364-81179.jpg?w=740&t=st=1706063073~exp=1706063673~hmac=bcead8cf3400873342fe24556f6a7db327001a3f050d45d07855065198305ae3"alt='net issue'/>
           </div>
         </div>
       </div>
